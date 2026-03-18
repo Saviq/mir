@@ -333,8 +333,8 @@ desktop-file-validate %{buildroot}%{_datadir}/applications/miral-shell.desktop
 
 
 %changelog
-* Fri, Dec 19 2025 Michał Sawicz <michal.sawicz@canonical.com> - 2.26.0~dev-1
-- Begin development for 2.26.0 release
+* Wed, Mar 18 2026 Mir CI Bot <mir-ci-bot@canonical.com> - 2.27.0~dev-1
+- Begin development for 2.27.0 release
 
 * Wed Dec 17 2025 Mir CI Bot <mir-ci-bot@canonical.com> - 2.25.2-1
 
