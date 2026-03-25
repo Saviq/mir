@@ -13,6 +13,7 @@ permissions:
 
 jobs:
   finalize:
+    name: Finalize Release on ${{ inputs.release_branch }}
     runs-on: ubuntu-latest
 
     permissions:
@@ -216,4 +217,6 @@ jobs:
               draft: true, // Keep as draft to allow manual review, for now
               prerelease: false
             });
-            console.log(`:info: Updated release ${release.html_url}`);
+            await core.summary
+              .addRaw(`- Release: [Mir v${process.env.VERSION}](${release.html_url})`, true)
+              .write();
