@@ -168,7 +168,10 @@ jobs:
               prerelease: false
             });
 
-            console.log(`::notice Created draft release at ${release.data.html_url}`);
+            await core.summary
+              .addHeading('Release Candidate created')
+              .addRaw(`- Draft release: [Mir v${process.env.INPUTS_VERSION}](${release.data.html_url})`, true)
+              .write();
 
       - name: Open pull request into main
         if: github.ref == env.MAIN_REF
@@ -186,7 +189,9 @@ jobs:
               body: '',
             });
 
-            console.log(`::notice Opened pull request at ${pr.data.html_url}`);
+            await core.summary
+              .addRaw(`- Release PR: [#${pr.data.number}](${pr.data.html_url})`, true)
+              .write();
 
             const fs = require('node:fs');
             const releaseTestDocContent = fs.readFileSync('doc/sphinx/contributing/how-to/test-mir-for-a-release.md', 'utf8');

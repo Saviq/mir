@@ -209,4 +209,7 @@ jobs:
               draft: true, // Keep as draft to allow manual review, for now
               prerelease: false
             });
-            console.log(`:info: Updated release ${release.html_url}`);
+            await core.summary
+              .addHeading('Release finalized')
+              .addRaw(`- Release: [Mir v${process.env.VERSION}](${release.data.html_url})`, true)
+              .write();
