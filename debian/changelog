@@ -1,8 +1,9 @@
-mir (2.27.1~rc) UNRELEASED; urgency=medium
+mir (2.27.1-0ubuntu24.04) noble; urgency=medium
 
-  * Begin Release Candidate for 2.27.1 release
 
- -- Michał Sawicz <michal.sawicz@canonical.com>  Thu, 26 Mar 2026 13:00:04 +0000
+  * Bugfix
+
+ -- Michał Sawicz <michal.sawicz@canonical.com>  Thu, 26 Mar 2026 13:08:25 +0000
 
 mir (2.27.0-0ubuntu24.04) noble; urgency=medium
 
