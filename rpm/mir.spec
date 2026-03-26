@@ -35,7 +35,7 @@
 %global mirplatforminput_sover 10
 
 Name:           mir
-Version:        2.27.0~rc
+Version:        2.27.0
 Release:        0%{?dist}
 Summary:        Next generation Wayland display server toolkit
 
@@ -333,6 +333,34 @@ desktop-file-validate %{buildroot}%{_datadir}/applications/miral-shell.desktop
 
 
 %changelog
+* Thu Mar 26 2026 Michał Sawicz <michal.sawicz@canonical.com> - 2.27.0-1
+
+- New upstream release 2.27.0
+
+  - ABI summary:
+    - miral ABI unchanged at 7
+    - mircommon ABI unchanged at 12
+    - mircore ABI unchanged at 2
+    - miroil ABI unchanged at 8
+    - mirplatform ABI unchanged at 34
+    - mirserver ABI unchanged at 67
+    - mirwayland ABI unchanged at 5
+    - mirplatformgraphics ABI unchanged at 23
+    - mirinputplatform ABI unchanged at 10
+
+  - Enhancements:
+
+    - Pull request title (#<PR number>)
+
+  - Bugs fixed:
+
+    - Issue title (#<Issue number>)
+
+  - Documentation:
+
+    - Pull request title (#<PR number>)
+
+
 * Thu Mar 26 2026 Michał Sawicz <michal.sawicz@canonical.com> - 2.27.0~rc-1
 - Begin Release Candidate for 2.27.0 release
 
