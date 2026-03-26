@@ -35,7 +35,7 @@
 %global mirplatforminput_sover 10
 
 Name:           mir
-Version:        2.27.1~rc
+Version:        2.27.1
 Release:        0%{?dist}
 Summary:        Next generation Wayland display server toolkit
 
@@ -333,6 +333,11 @@ desktop-file-validate %{buildroot}%{_datadir}/applications/miral-shell.desktop
 
 
 %changelog
+* Thu Mar 26 2026 Michał Sawicz <michal.sawicz@canonical.com> - 2.27.1-1
+
+- Bugfix
+
+
 * Thu Mar 26 2026 Michał Sawicz <michal.sawicz@canonical.com> - 2.27.1~rc-1
 - Begin Release Candidate for 2.27.1 release
 * Thu Mar 26 2026 Michał Sawicz <michal.sawicz@canonical.com> - 2.27.0-1
