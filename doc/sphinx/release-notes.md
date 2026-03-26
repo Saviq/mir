@@ -28,7 +28,7 @@
 
 -->
 
-## Mir 2.27.0~dev
+## Mir 2.27.0~rc
 
 - New upstream release 2.27.0
 
