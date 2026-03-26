@@ -1,12 +1,35 @@
-mir (2.27.0~rc) UNRELEASED; urgency=medium
+mir (2.27.0-0ubuntu24.04) noble; urgency=medium
 
   [ Mir CI Bot ]
-  * Begin development for 2.27.0 release
-
   [ Michał Sawicz ]
-  * Begin Release Candidate for 2.27.0 release
 
- -- Michał Sawicz <michal.sawicz@canonical.com>  Thu, 26 Mar 2026 12:05:22 +0000
+  * New upstream release 2.27.0
+
+    - ABI summary:
+
+      - miral ABI unchanged at 7
+      - mircommon ABI unchanged at 12
+      - mircore ABI unchanged at 2
+      - miroil ABI unchanged at 8
+      - mirplatform ABI unchanged at 34
+      - mirserver ABI unchanged at 67
+      - mirwayland ABI unchanged at 5
+      - mirplatformgraphics ABI unchanged at 23
+      - mirinputplatform ABI unchanged at 10
+
+    - Enhancements:
+
+      - Pull request title (#<PR number>)
+
+    - Bugs fixed:
+
+      - Issue title (#<Issue number>)
+
+    - Documentation:
+
+      - Pull request title (#<PR number>)
+
+ -- Michał Sawicz <michal.sawicz@canonical.com>  Thu, 26 Mar 2026 12:40:41 +0000
 
 mir (2.25.0) UNRELEASED; urgency=medium
 
