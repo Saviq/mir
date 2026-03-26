@@ -43,6 +43,22 @@
     - mirplatformgraphics ABI unchanged at 23
     - mirinputplatform ABI unchanged at 10
 
+  Some release notes go here.
+
+  And some more in here.
+
+  - Enhancements:
+
+    - Pull request title (#<PR number>)
+
+  - Bugs fixed:
+
+    - Issue title (#<Issue number>)
+
+  - Documentation:
+
+    - Pull request title (#<PR number>)
+
 ## Mir 2.25.2
 
 - Bugs fixed:
