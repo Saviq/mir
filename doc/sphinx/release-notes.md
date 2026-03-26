@@ -28,6 +28,10 @@
 
 -->
 
+## Mir 2.27.1
+
+- Bugfix
+
 ## Mir 2.27.0
 
 - New upstream release 2.27.0
