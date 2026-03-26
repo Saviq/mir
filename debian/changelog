@@ -1,8 +1,12 @@
-mir (2.27.0~dev) UNRELEASED; urgency=medium
+mir (2.27.0~rc) UNRELEASED; urgency=medium
 
+  [ Mir CI Bot ]
   * Begin development for 2.27.0 release
 
- -- Mir CI Bot <mir-ci-bot@canonical.com>  Tue, 24 Mar 2026 12:36:21 +0000
+  [ Michał Sawicz ]
+  * Begin Release Candidate for 2.27.0 release
+
+ -- Michał Sawicz <michal.sawicz@canonical.com>  Thu, 26 Mar 2026 11:43:23 +0000
 
 mir (2.25.0) UNRELEASED; urgency=medium
 
